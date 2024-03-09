@@ -105,6 +105,7 @@ header .container-build img {
     width: 80%;
     margin-bottom: 1.5rem;
 }
+
 main {
     width: 100%;
     margin-bottom: 13rem;
@@ -118,6 +119,7 @@ main .container--section-main {
     align-items: center;
     background-color: var(--white);
     border: 2px solid var(--white);
+    border-radius: 10px;
     flex-direction: column;
     margin: 0 auto;
     margin-top: 2rem;
@@ -168,7 +170,7 @@ main p {
 }
 
 .container-absolute p {
-    width: 100% !important;
+    width: 100%;
     color: var(--Very-Dark-Cyan);
     font-size: 1.2rem;
     font-weight: 700;
