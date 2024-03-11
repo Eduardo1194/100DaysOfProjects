@@ -281,6 +281,11 @@ footer .container-redesSociales p {
 }
 
 /*-----------Hover-------------------*/
+header .container-build button:hover,
+button:hover {
+    background-color: hsl(322, 80%, 86%);;
+}
+
 footer .menu-footer  a:hover {
     text-decoration-line: underline;
 }
