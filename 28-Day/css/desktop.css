@@ -92,8 +92,8 @@ main p {
     height: 30vh;
     
     position: absolute;
-    top: 124rem;
-    left: 14rem;
+    top: 144rem;
+    left: 17rem;
     
 }
 
@@ -162,29 +162,14 @@ footer .container-redesSociales .container-div {
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    margin-top: 23rem;
-}
-
-footer .container-redesSociales .container-div li {
-    width: 50px;
-    height: 50px;
-    border: 1px solid var(--white);
-    border-radius: 50%;
-    margin-bottom: 2rem;
-    
-}
-
-footer .container-redesSociales .container-div li i {
-    line-height: 50px;
-    margin-left: .7rem;
-}
-
-footer .container-redesSociales .container-div li .facebook {
-    margin-left: .9rem;
+    margin-top: 16rem;
 }
 
 footer .container-redesSociales p {
     font-size: 1rem;
     padding-bottom: 3rem;
+    margin-top: 11rem;
+    margin-right: 2rem;
     text-align: center;
+
 }
