@@ -1,0 +1,69 @@
+body {
+    max-width: 1300px;
+}
+
+header {
+    max-width: 1300px;
+        
+}
+
+header img {
+    width: 150px;
+    
+}
+
+header nav {
+    width: 50%;
+    display: flex;
+    font-size: 2rem;
+    justify-content: end;
+}
+
+main .container__main-top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .container__main-top .img-illustration-1 {
+    width: 52%;
+    order: 1;
+}
+
+main .container-illustration-1 .div-description .title {
+    width: 85% ;
+    font-size: 2.96rem;
+    line-height: 1.4;
+    text-align: left;
+}
+
+main .container-illustration-1 .div-description .description {
+    width: 85%;
+    font-size: 1.7rem;
+    text-align: left;
+}
+
+main .container-btn {
+    width: 85%;
+    flex-direction: row;
+}
+
+main .container-btn input[type="text"] {
+    width: 250px;
+}
+
+main .container-btn input[type="button"] {
+    width: 150px;
+    margin-bottom: 0;
+}
+
+/*-----------------------illustration 2--------------------*/
+main .container-illustration-2{
+    display: flex;
+    background-image: url('../img/bg-curve-desktop.svg');
+           
+}
+
+main .container-illustration-2 .img-illustration-2 {
+    width: 52%;
+    order: 1;
+}
