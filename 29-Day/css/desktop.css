@@ -53,7 +53,7 @@ main .container-btn input[type="text"] {
     width: 250px;
 }
 
-main .container-btn input[type="button"] {
+main .container-btn input[type="submit"] {
     width: 150px;
     margin-bottom: 0;
 }
