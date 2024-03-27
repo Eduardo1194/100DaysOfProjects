@@ -239,3 +239,150 @@ main .container__section-flowing .container__div-description p {
     width: 85%;
     text-align: center;
 }
+
+/*-----------------------Section bottom------------*/
+main .container__bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--Very-Dark-Cyan);
+    flex-direction: column;
+    font-size: 1.6rem;
+    gap: 3rem;
+    margin-bottom: 5rem;
+}
+
+main .container__bottom h3 {
+    width: 85%;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+main .container__bottom button {
+    width: 200px;
+    height: 7vh;
+    background-color: var(--Pink);
+    border: none;
+    border-radius: 3rem;
+    color: var(--Very-Pale-Blue);
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+/*-------------------------footer--------------*/
+footer {
+    width: 100%;
+    background-image: url('../img/bg-footer-top-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    
+}
+
+footer .container__footer-top {
+    width: 100%;
+    /* color: var(--Very-Pale-Blue); */
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-left: 3rem;
+    
+}
+
+footer .container__footer-top h3 {
+    width: 80% ;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 7rem;
+}
+
+footer .container__footer-top p {
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+/*-------------------form----------------------*/
+footer form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+footer form input[type='text'] {
+    width: 80%;
+    height: 4rem;
+    background-color: #fff;
+    /* border: transparent; */
+    border-radius: 1rem;
+    margin-right: 3.8rem;
+    outline: none;
+}
+
+footer form input[type="submit"] {
+    width: 40%;
+    height: 4rem;
+    background-color: var(--Pink);
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-left: 11rem;
+    margin-bottom: 5rem;
+
+}
+
+/*----------------------container bottom-----------*/
+footer .container--bottom {
+    width: 100%;
+    /* color: var(--Very-Pale-Blue); */
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-left: 3rem;
+    
+}
+
+footer .container--bottom .container__description {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+footer .container--bottom .container__description img {
+    margin-bottom: 2rem;
+}
+
+footer .container--bottom .container__description p {
+    width: 85%;
+    line-height: 1.4;
+}
+
+footer .container--bottom .container__Social {
+    width: 100%;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+
+footer .container--bottom .container__redesSociales {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+li {
+    width: 40px;
+    height: 40px;
+    background-color: var(--Very-Dark-Cyan);
+    border: 1px solid;
+    border-radius: .5rem;
+    /* color: var(--Very-Dark-Cyan); */
+    font-size: 3.1rem;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
