@@ -1,0 +1,188 @@
+:root {
+    /*Colores primarios*/
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+
+    /*Colores Neutrales*/
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+
+body {
+    max-width: 1300px;
+    
+}
+
+header {
+    max-width: 1300px;
+    margin-top: 4rem;
+}
+
+header img {
+    width: 15%;
+    margin-right: 50rem;
+}
+
+/*--------------main--------------------*/
+/*------------------main top----------*/
+main {
+    max-width: 1300px;
+       
+}
+
+main .container-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+main .container-top .container__div-build .title {
+    font-size: 4rem;
+    text-align: center;
+}
+
+main .container-top .container__div-build .description {
+    width: 60%;
+    font-size: 2.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+}
+
+main .container__div-build button {
+    width: 20%;
+    height: 40px;
+    font-size: 1.6rem;
+    
+}
+
+main .container-img img {
+    width: 60%;
+       
+}
+
+main .container__div-bottom {
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-left: 7rem;
+      
+}
+
+main .container__div-bottom .container__subdiv {
+    width: 50%;
+    text-align: center;  
+}
+
+/*------------------------grow-----------------*/
+main .container__med-grow {
+    background-image: url('../img/bg-section-top-desktop-2.svg');
+    display: flex;    
+}
+
+main .container__med-grow .container__div-imgGrow {
+    order: 2;
+}
+
+
+/*------------description grow-----------------*/
+main .container__med-grow .container__div-grow {
+    margin-left: 3rem;
+}
+
+main .container__med-grow .container__div-grow h2 {
+    margin-right: 22rem;
+}
+
+main .container__med-grow .container__div-grow  p {
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+/*------------------------container flowing-------------*/
+main .container__section-flowing {
+    width: 100% ;
+    display: flex;
+    
+}
+
+main .container__section-flowing .container__div-description {
+    padding-left: 3rem;
+}
+
+main .container__section-flowing .container__div-description h2 {
+    margin-right: 13.5rem;
+    
+}
+
+main .container__section-flowing .container__div-description p {
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+main .takes .container__div-imgFlowing {
+    order: 2;
+}
+
+main .takes .container__div-description h2 {
+    margin-right: 29.5rem;
+}
+
+/*-----------------------Section bottom------------*/
+main .container__bottom {
+    margin-top: 10rem;
+}
+
+/*-------------------------footer--------------*/
+footer {
+    background-image: url('../img/bg-footer-top-desktop.svg');
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 5rem;  
+}
+
+footer .container__footer-top {
+    order: 2;
+}
+
+footer .container__footer-top h3 {
+    font-size: 4rem;
+    padding-top: 18rem;
+}
+
+footer .container__footer-top p {
+    font-size: 2rem;
+}
+
+/*-------------------form----------------------*/
+footer form {
+    width: 80%;
+    flex-direction: row;
+    gap: 2rem;
+    margin-left: 0;
+}
+
+footer form input[type='text'] {
+    margin-right: 0;
+    
+}
+
+footer form input[type="submit"] {
+    margin-left: 0;
+    margin-bottom: 0;
+
+}
+
+/*----------------------container bottom-----------*/
+footer .container--bottom {
+    margin-top: 18rem;
+       
+}
+
+footer .container--bottom .container__description p, span {
+    font-size: 2rem;
+    
+}
+
