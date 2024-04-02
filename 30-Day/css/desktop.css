@@ -186,3 +186,27 @@ footer .container--bottom .container__description p, span {
     
 }
 
+/*---------------------------Validaciones------------*/
+footer form .incorrect {
+    border: 2px solid red;
+    box-shadow: 2px 2px 2px 2px rgb(219, 142, 142);
+    
+}
+
+.error {
+    visibility: hidden;
+    position: absolute;
+    font-size: small;
+    font-weight: 500;
+    margin-top: 8.5rem;
+    margin-right: 30rem;
+    margin-bottom: 25px;
+    text-align: right;
+    
+}
+
+.error {
+    visibility: visible; 
+    color: #e80c3c;
+}
+
