@@ -316,10 +316,10 @@ footer form input[type='text'] {
     width: 80%;
     height: 4rem;
     background-color: #fff;
-    /* border: transparent; */
     border-radius: 1rem;
     margin-right: 3.8rem;
     outline: none;
+    padding-left: 2rem;
 }
 
 footer form input[type="submit"] {
@@ -385,3 +385,54 @@ li {
     justify-content: center;
     align-items: center;
 }
+
+/*------------hover-----*/
+header button:hover {
+    cursor: pointer;
+    border: 2px solid  hsl(320, 78%, 87%);
+    color: hsl(320, 78%, 87%);
+}
+
+main .container__div-build button:hover, 
+main .container__bottom button:hover {
+    background-color: hsl(321, 91%, 87%);
+    cursor: pointer;
+    
+}
+
+footer form input[type='submit']:hover {
+    background-color: hsl(321, 91%, 87%);
+}
+
+footer form input[type='text']:hover,
+footer form input[type='submit'] {
+    cursor: pointer;
+}
+
+/*---------------------------Validaciones---------------*/
+footer form .incorrect {
+    border: 2px solid red;
+    box-shadow: 2px 2px 2px 2px rgb(219, 142, 142);
+    
+}
+
+.error {
+    visibility: hidden;
+    position: absolute;
+    font-size: small;
+    font-weight: 500;
+    /* margin-top: .5rem; */
+    margin-right: 20rem;
+    margin-bottom: 25px;
+    text-align: right;
+    
+}
+
+.error {
+    visibility: visible; 
+    color: #e80c3c;
+}
+
+
+    cursor: pointer;
+
